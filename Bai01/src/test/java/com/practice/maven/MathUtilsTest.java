@@ -19,7 +19,7 @@ public class MathUtilsTest {
     @DisplayName("Kiểm thử phép chia hợp lệ")
     void testDivideSuccess() {
         int result = mathUtils.divide(10, 2);
-        assertEquals(5, result, "10 chia 2 phải bằng 5");
+        assertEquals(999, result, "10 chia 2 phải bằng 5");
     }
 
     @Test
