@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="736604f0-5b8d-4ec8-b32a-5c811ec59c47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai01/src/main/java/com/practice/maven/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai01/src/test/java/com/practice/maven/MathUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000003034766223" />
+      <entry key="S2" value="1.0394728786739773" />
+      <entry key="S5" value="1.4161608253057434" />
+      <entry key="S10" value="1.9408840611400637" />
+      <entry key="S30" value="4.059160437270305" />
+      <entry key="S60" value="7.952065976309801" />
+      <entry key="M2" value="13.560588722821144" />
+      <entry key="M5" value="21.1997652005687" />
+      <entry key="M10" value="31.891865200736838" />
+      <entry key="M15" value="43.063194186563656" />
+      <entry key="M30" value="67.44158526990597" />
+      <entry key="H1" value="89.71072786151889" />
+      <entry key="H2" value="104.99194032738218" />
+      <entry key="H4" value="113.97523130795481" />
+      <entry key="D1" value="122.25167864302158" />
+      <entry key="W1" value="123.74826935623517" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.279796788935343E-29" />
+      <entry key="MS500" value="1.6650535414386033E-6" />
+      <entry key="S2" value="0.03592322926445564" />
+      <entry key="S5" value="0.26903173969197836" />
+      <entry key="S10" value="0.5858352090203771" />
+      <entry key="S30" value="1.729621324894513" />
+      <entry key="S60" value="3.6894491655975776" />
+      <entry key="M2" value="6.312808926811721" />
+      <entry key="M5" value="9.411512055699022" />
+      <entry key="M10" value="11.979285180478456" />
+      <entry key="M15" value="13.901194215088783" />
+      <entry key="M30" value="17.490837154159063" />
+      <entry key="H1" value="20.518709005960307" />
+      <entry key="H2" value="22.534394690375578" />
+      <entry key="H4" value="23.70434240352786" />
+      <entry key="D1" value="24.774698194360905" />
+      <entry key="W1" value="24.967576127800466" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.174945109861424E-11" />
+      <entry key="MS500" value="0.009605725306149619" />
+      <entry key="S2" value="0.37738145200518075" />
+      <entry key="S5" value="1.275556665266929" />
+      <entry key="S10" value="2.2699715077187093" />
+      <entry key="S30" value="5.606660421707849" />
+      <entry key="S60" value="11.474212074424212" />
+      <entry key="M2" value="19.746048392296036" />
+      <entry key="M5" value="30.54063749674161" />
+      <entry key="M10" value="43.82624628835691" />
+      <entry key="M15" value="56.92943742171266" />
+      <entry key="M30" value="84.91035156575596" />
+      <entry key="H1" value="110.21652167688922" />
+      <entry key="H2" value="127.51926428619217" />
+      <entry key="H4" value="137.67586238136" />
+      <entry key="D1" value="147.02573164268415" />
+      <entry key="W1" value="148.71575263020708" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MCEHWGRMEI2IbhJqsOlbIkOwnx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Bank.executor": "Run",
+    "Application.MathUtils.executor": "Run",
+    "JUnit.MathUtilsTest.executor": "Run",
+    "Maven.Bai02 [org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1:check].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Bank">
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank_system.Bank" />
+      <module name="Bai02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bank_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.maven.MathUtils" />
+      <module name="Bai01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bank" />
+        <item itemvalue="Application.MathUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="736604f0-5b8d-4ec8-b32a-5c811ec59c47" name="Changes" comment="" />
+      <created>1794846061597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794846061597</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
