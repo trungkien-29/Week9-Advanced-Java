@@ -1,11 +1,14 @@
 package com.practice.file;
 
+import java.nio.file.Path;
+
 public class PathUtils {
     /**
-     * CỐ TÌNH DÙNG DẤU GẠCH CHÉO NGƯỢC CỦA WINDOWS '\'
-     * Hàm này chạy được trên Windows, nhưng sẽ sai hoàn toàn trên Linux và macOS!
+     * Dùng Path.of để Java tự động nhận diện hệ điều hành:
+     * - Chạy trên Windows: tự điền dấu '\'
+     * - Chạy trên Linux/Mac: tự điền dấu '/'
      */
     public String buildFilePath(String folder, String filename) {
-        return folder + "\\" + filename; // Lỗi cố tình: dùng cứng dấu '\'
+        return Path.of(folder, filename).toString();
     }
 }
