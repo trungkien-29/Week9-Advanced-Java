@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-    # MATRIX STRATEGY: Chạy đồng thời trên 3 hệ điều hành
     strategy:
       fail-fast: false
       matrix:
@@ -26,17 +25,15 @@ jobs:
           java-version: '25'
           distribution: 'oracle'
 
-      - name: Run Unit Tests
-        run: mvn test
+      # Thực thi pha verify (chạy test, đóng gói và kiểm tra JaCoCo >= 80%)
+      - name: Build, Test and Verify with JaCoCo
+        run: mvn clean verify
 
-      - name: Build and Package with Maven
-        run: mvn package -DskipTests=false
-
-      # Chỉ upload artifact một lần trên Ubuntu để tránh ghi đè
-      - name: Upload Build Artifact (.jar)
+      # Upload báo cáo bao phủ code JaCoCo HTML lên GitHub Artifacts
+      - name: Upload JaCoCo Coverage Report
         if: matrix.os == 'ubuntu-latest'
         uses: actions/upload-artifact@v4
         with:
-          name: app-packages
-          path: "**/target/*.jar"
+          name: jacoco-coverage-report
+          path: "**/target/site/jacoco/**"
           retention-days: 7
