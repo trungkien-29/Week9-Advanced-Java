@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736604f0-5b8d-4ec8-b32a-5c811ec59c47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai03/src/main/java/com/practice/maven/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai03/src/test/java/com/practice/maven/MathUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai04/src/main/java/com/practice/file/PathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai04/src/test/java/com/practice/file/PathUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
