@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736604f0-5b8d-4ec8-b32a-5c811ec59c47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Bai01/src/test/java/com/practice/maven/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bai01/src/test/java/com/practice/maven/MathUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai03/src/main/java/com/practice/maven/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai03/src/test/java/com/practice/maven/MathUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai04/src/main/java/com/practice/file/PathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai04/src/test/java/com/practice/file/PathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,67 +33,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4248251463309938" />
-      <entry key="MS500" value="2.9614368380411706" />
-      <entry key="S2" value="4.751709856605676" />
-      <entry key="S5" value="7.5112218135913205" />
-      <entry key="S10" value="10.311853459944345" />
-      <entry key="S30" value="13.776073083911664" />
-      <entry key="S60" value="16.083351624664047" />
-      <entry key="M2" value="22.628834360442042" />
-      <entry key="M5" value="43.156630909113666" />
-      <entry key="M10" value="63.32319046034066" />
-      <entry key="M15" value="77.53949215509054" />
-      <entry key="M30" value="109.30505141682963" />
-      <entry key="H1" value="144.5720389362378" />
-      <entry key="H2" value="172.90940467168298" />
-      <entry key="H4" value="191.18515803626013" />
-      <entry key="D1" value="209.087638872415" />
-      <entry key="W1" value="212.43387539843755" />
+      <entry key="MS100" value="1.3895643684826264" />
+      <entry key="MS500" value="2.401983063546386" />
+      <entry key="S2" value="3.7924396265482856" />
+      <entry key="S5" value="5.503119997848123" />
+      <entry key="S10" value="6.550710500544641" />
+      <entry key="S30" value="7.748163393332582" />
+      <entry key="S60" value="8.650786084378428" />
+      <entry key="M2" value="9.635711165767145" />
+      <entry key="M5" value="15.408789986731831" />
+      <entry key="M10" value="32.3933006577678" />
+      <entry key="M15" value="48.78940615584657" />
+      <entry key="M30" value="87.42905721868665" />
+      <entry key="H1" value="131.92650083617406" />
+      <entry key="H2" value="169.14787845118255" />
+      <entry key="H4" value="193.84467703345584" />
+      <entry key="D1" value="218.53934948788313" />
+      <entry key="W1" value="223.20844327870338" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.0424483379964393E-261" />
-      <entry key="S2" value="7.426869675605071E-66" />
-      <entry key="S5" value="8.878410087317155E-27" />
-      <entry key="S10" value="9.497652447120353E-14" />
-      <entry key="S30" value="6.667636512548337E-5" />
-      <entry key="S60" value="0.016613883207829857" />
-      <entry key="M2" value="0.3018618842462085" />
-      <entry key="M5" value="1.8988740866689529" />
-      <entry key="M10" value="4.5275570747941165" />
-      <entry key="M15" value="7.088867889650994" />
-      <entry key="M30" value="13.136988500955642" />
-      <entry key="H1" value="19.501821666475415" />
-      <entry key="H2" value="24.370166497316028" />
-      <entry key="H4" value="27.424170001186198" />
-      <entry key="D1" value="30.36365568930408" />
-      <entry key="W1" value="30.908045708130903" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.61477225870246E-205" />
+      <entry key="S5" value="1.8436266993961965E-82" />
+      <entry key="S10" value="1.3686272009400816E-41" />
+      <entry key="S30" value="3.495652185453956E-14" />
+      <entry key="S60" value="3.804077026654879E-7" />
+      <entry key="M2" value="0.0014444328377471605" />
+      <entry key="M5" value="0.22410512976997266" />
+      <entry key="M10" value="1.5553987610276967" />
+      <entry key="M15" value="3.477192701457153" />
+      <entry key="M30" value="9.200718809098749" />
+      <entry key="H1" value="16.320676251042013" />
+      <entry key="H2" value="22.29410185084377" />
+      <entry key="H4" value="26.230057021920214" />
+      <entry key="D1" value="30.139197317839926" />
+      <entry key="W1" value="30.875301439250695" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.2761487556119289" />
-      <entry key="MS500" value="2.8954769038689365" />
-      <entry key="S2" value="4.7284217352856155" />
-      <entry key="S5" value="7.496673496979376" />
-      <entry key="S10" value="10.301538132808698" />
-      <entry key="S30" value="13.771382240989396" />
-      <entry key="S60" value="16.096843894169147" />
-      <entry key="M2" value="22.926019951420397" />
-      <entry key="M5" value="45.04699188468057" />
-      <entry key="M10" value="67.83933784958283" />
-      <entry key="M15" value="84.61519703071309" />
-      <entry key="M30" value="122.42836971800179" />
-      <entry key="H1" value="164.0631930722745" />
-      <entry key="H2" value="197.27276642605545" />
-      <entry key="H4" value="218.60546468720491" />
-      <entry key="D1" value="239.45057682923743" />
-      <entry key="W1" value="243.34181662171736" />
+      <entry key="MS100" value="1.3232419611319057" />
+      <entry key="MS500" value="2.3777981450462584" />
+      <entry key="S2" value="3.777498145993397" />
+      <entry key="S5" value="5.491786822249181" />
+      <entry key="S10" value="6.543383392785086" />
+      <entry key="S30" value="7.745173299118333" />
+      <entry key="S60" value="8.649150432818756" />
+      <entry key="M2" value="9.636255806344769" />
+      <entry key="M5" value="15.631519263525341" />
+      <entry key="M10" value="33.944590114183434" />
+      <entry key="M15" value="52.26001483681243" />
+      <entry key="M30" value="96.62013768389104" />
+      <entry key="H1" value="148.23821743117009" />
+      <entry key="H2" value="191.43573910579585" />
+      <entry key="H4" value="220.07103084591355" />
+      <entry key="D1" value="248.67783303140152" />
+      <entry key="W1" value="254.08364015125895" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3MCEHWGRMEI2IbhJqsOlbIkOwnx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -93,8 +102,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Bank.executor": "Run",
+    "Application.MathUtils (1).executor": "Run",
     "Application.MathUtils.executor": "Run",
     "JUnit.MathUtilsTest.executor": "Run",
+    "JUnit.PathUtilsTest.executor": "Run",
     "Maven.Bai02 [org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1:check].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,6 +117,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA/Week9/Bai03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,13 +130,31 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bank">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Week9\Bai03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PathUtilsTest">
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bank_system.Bank" />
       <module name="Bai02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bank_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtils (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.maven.MathUtils" />
+      <module name="Bai03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,8 +175,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bai04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.file" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.file.PathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PathUtilsTest" />
+        <item itemvalue="Application.MathUtils (1)" />
         <item itemvalue="Application.Bank" />
         <item itemvalue="Application.MathUtils" />
       </list>

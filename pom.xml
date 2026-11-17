@@ -11,6 +11,8 @@
     <modules>
         <module>Bai01</module>
         <module>Bai02</module>
+        <module>Bai03</module>
+        <module>Bai04</module>
     </modules>
 
     <properties>
