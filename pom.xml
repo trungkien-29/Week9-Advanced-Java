@@ -17,8 +17,8 @@
     </modules>
 
     <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
+        <!-- JDK 25 sẽ biên dịch code ra chuẩn bytecode mà JaCoCo hiểu được -->
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
